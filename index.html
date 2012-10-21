@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/site.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/game.js"></script>
+		<title>REGEXP-HERO</title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			});
+		</script>
+
+		<div class="container">
+			<center>
+				<h1>REGEXP-HERO</h1>
+				<p class="lead">Practice regular expressions, in a fun way!</p>
+			</center>
+			<div class="container well span8 offset2">
+				<canvas id="game" class="">
+				</canvas>
+			</div>
+
+			<div class="row">
+				<div class="span12 well">
+					<h2>Regexp cheat sheet</h2>
+					<ul>
+						<li>[abc]<p>A single character of: a, b or c</li>
+						<li>[^abc]	Any single character except: a, b, or c</li>
+						<li>[a-z]	Any single character in the range a-z</li>
+						<li>[a-zA-Z]	Any single character in the range a-z or A-Z</li>
+						<li>^ Start of line</li>
+						<li>$ End of line</li>
+						<li>\A Start of string</li>
+						<li>\z End of string</li>
+						<li>. Any single character</li>
+						<li>\s Any whitespace character</li>
+						<li>\S Any non-whitespace character</li>
+						<li>\d Any digit</li>
+						<li>\D Any non-digit</li>
+						<li>\w Any word character (letter, number, underscore)</li>
+						<li>\W Any non-word character</li>
+						<li>\b Any word boundary</li>
+						<li>(...) Capture everything enclosed</li>
+						<li>(a|b) a or b</li>
+						<li>a? Zero or one of a</li>
+						<li>a* Zero or more of a</li>
+						<li>a+ One or more of a</li>
+						<li>a{3} Exactly 3 of a</li>
+						<li>a{3,} 3 or more of a</li>
+						<li>a{3,6} Between 3 and 6 of a</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
